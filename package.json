@@ -1,0 +1,19 @@
+{
+  "name": "sql-fun-time",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:taylor1791/sql-fun-time.git",
+  "author": "Taylor Everding <taylor1791@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^4.0.3",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+    "exec": "node index.js",
+    "start": "node index.js --watch"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
